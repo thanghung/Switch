@@ -1,0 +1,11 @@
+﻿<Window x:Class="switchstatement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="source" Height="100" Width="300" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Margin="108.5,28,108.5,0"/>
+        <TextBox x:Name="target" Height="100" Width="300" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Margin="108.5,200,108.5,0"/>
+        <Button x:Name="copy" Content="Copy" HorizontalAlignment="Left" Margin="108,155,0,0" VerticalAlignment="Top" Width="76" FontSize="16" FontWeight="Bold" Click="copy_Click"/>
+
+    </Grid>
+</Window>
